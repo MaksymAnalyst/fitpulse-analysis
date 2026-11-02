@@ -1,0 +1,7 @@
+{
+  "name": "fitpulse-analysis",
+  "private": true,
+  "type": "module",
+  "scripts": {"sql": "node analysis/run_pglite.mjs"},
+  "dependencies": {"@electric-sql/pglite": "0.5.13"}
+}

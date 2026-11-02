@@ -1,0 +1,3 @@
+-r requirements.txt
+psycopg[binary]>=3.2
+# Optional fallback without DATABASE_URL: install pgserver on a supported platform.

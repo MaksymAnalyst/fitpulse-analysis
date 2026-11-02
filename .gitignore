@@ -1,0 +1,35 @@
+# Local environments, dependencies and runtime state
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pgdata/
+.env
+.env.*
+!.env.example
+*.log
+
+# Temporary editor and Office files
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Keep only source code and technical configuration in this repository.
+*.md
+*.docx
+*.pdf
+*.png
+*.csv
+*.sha256
+*.txt
+!requirements.txt
+!requirements-postgres.txt
+/assignment/
+/fitpulse/data/
+/fitpulse/output/
+/fitpulse/charts/
